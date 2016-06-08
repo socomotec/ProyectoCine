@@ -2,7 +2,88 @@
 
 #jumbotron-index{
 
-background-color: #FFC4FF;
+background-color: red;
+background: url(../../Vista/img/m01.png) no-repeat center center fixed; 
+background-repeat: no-repeat; 
+background-attachment: fixed;
+height: 450px;
 text-align: center;
+position: relative;
+-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
+}
+
+
+#jumbotron-index2 {
+background-color: #FFFFC8;
+/*background: url(../../Vista/img/index-img.jpg) no-repeat center center fixed; background /*responsive */
+background-attachment: fixed; /* La imagen no se mueva */
+height: auto; /* Definimos el largo */
+text-align: center; /* Aliñeamos el div al centro */
+position: relative;
+-webkit-background-size: cover; /* que se ajuste la imagen */
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+
+#menu_button{
+
+margin-top: 30px;
+
+}
+
+#menu_jumbotron{
+background-color: white;
+-webkit-box-shadow: 0px 0px 37px 13px rgba(236,247,156,1);
+-moz-box-shadow: 0px 0px 37px 13px rgba(236,247,156,1);
+box-shadow: 0px 0px 37px 13px rgba(236,247,156,1);
+}
+
+#menu_jumbotron h1{
+
+color: red;
+
+}
+
+#menu_jumbotron h1:hover{
+
+color: black;
+
+}
+
+#menu_btn_img{
+
+background: url(../../Vista/img/boton.jpg) no-repeat center center;
+border-radius: 150px;
+height: 200px;
+width: 200px;
+margin-bottom:40px;
+margin-top: 30px;
+-webkit-box-shadow: 0px 0px 37px 13px rgba(28,28,24,1);
+-moz-box-shadow: 0px 0px 37px 13px rgba(28,28,24,1);
+box-shadow: 0px 0px 37px 13px rgba(28,28,24,1)	
+}
+
+#menu_btn_img h3{
+
+
+}
+
+#menu_btn_img2{
+
+background: url(../../Vista/img/boton2.jpg) no-repeat center center;
+border-radius: 150px;
+height: 200px;
+width: 200px;
+margin-bottom:40px;
+margin-top: 30px;
+-webkit-box-shadow: 0px 0px 37px 13px rgba(28,28,24,1);
+-moz-box-shadow: 0px 0px 37px 13px rgba(28,28,24,1);
+box-shadow: 0px 0px 37px 13px rgba(28,28,24,1)		
 }
